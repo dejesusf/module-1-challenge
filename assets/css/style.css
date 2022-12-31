@@ -4,17 +4,6 @@
     margin: 0;
 }
 
-body {
-    background-color: #d9dcd6;
-}
-
-.header {
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
-}
-
 h1 {
     display: inline-block;
     font-size: 48px;
@@ -30,11 +19,32 @@ h3 {
     text-align: center;
 }
 
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+body {
+    background-color: #d9dcd6;
+}
+
+/*styling for header and navigation elements*/
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
 .seo {
     color: #d9dcd6;
 }
 
-.header div {
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -51,15 +61,7 @@ h3 {
     margin-left: 25px;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-
+/*large spotlight image*/
 .spotlight-image {
     height: 800px;
     width: 100%;
@@ -69,6 +71,7 @@ p {
     background-position: center;
 }
 
+/*floats for column and box flow*/
 .float-left {
     float: left;
     margin-right: 25px;
@@ -79,13 +82,16 @@ p {
     margin-left: 25px;
 }
 
-.main {
+/*main body styling for the 3 nav links*/
+main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-.box {
+#search-engine-optimization,
+#online-reputation-management,
+#social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -98,7 +104,8 @@ p {
     max-height: 200px;
 }
 
-.side-panel {
+/*side column*/
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -120,13 +127,11 @@ p {
     max-width: 150px;
 }
 
-.footer {
+/*footer*/
+footer {
+    font-size: 20px;
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-}
-
-#footer {
-    font-size: 20px;
 }
