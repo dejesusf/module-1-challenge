@@ -11,5 +11,5 @@ Here is a screenshot of the webpage after I modified the existing HTML and CSS.
 ![screenshot of the horiseon webpage](assets/images/horiseon-website.png)
 
 ## Link
-Here is the [link](dejesusf.github.io/module-1-challenege) to the Horiseon website.
+Here is the [link](https://dejesusf.github.io/module-1-challenge/) to the Horiseon website.
 
